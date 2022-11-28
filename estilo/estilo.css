@@ -1,0 +1,178 @@
+* {margin: 2px;
+  padding: 3px;}
+
+body
+{background-image: linear-gradient(to right, #a2122f, #b83a32, #cb5937, #dd783e, #ec9648, #e7954c, #e1944f, #dc9353, #bf754c, #9f5b44, #7d433a, #5a2e2e)}
+
+
+/*inicio header*/
+header
+{border: #d4be99 solid 2px;
+background-image: linear-gradient(to left, #532728, #572122, #5a1a1b, #5d1113, #5f0609);}
+
+header h1 
+{color: #d4be99;
+font-size: 50px;
+font-family: 'Amatic SC', cursive;
+text-align: center;
+font-weight: bolder;}
+
+nav
+{display:flex;
+justify-content: center;}
+
+nav ul li 
+{display: inline-block;}
+
+nav ul li a 
+{font-size: 25px;
+color: #d4be99;
+font-family: 'Montserrat', sans-serif;
+text-decoration: none;}
+
+
+nav ul li a:hover 
+{color: black;
+font-size: 26px;
+font-weight: bold;}
+/*fin header*/
+
+
+/*inicio container section*/
+.flex-aside-article
+{display: flex;
+justify-content: space-between;}
+
+.container-section
+{display: flex;
+margin: 2px;
+padding: 2px;
+border: solid white 1px}
+
+.flex-boxaside
+{display: flex;
+width: 30%;
+flex-direction: column;
+justify-content: center;}
+
+section
+{color: black;
+font-family: 'Amiri Quran', serif;;
+text-align: justify;
+font-size: 20px;
+line-height: 1.5;}
+
+section h1
+{font-size: 40px;
+text-align: left;
+text-decoration: underline;
+font-weight: bolder;
+font-family: 'Amatic SC', cursive;}
+
+section h2
+{font-size: 35px;
+text-align: left;
+text-decoration: underline;
+font-weight: bolder;
+font-family: 'Amatic SC', cursive;}
+
+.article-investigacion
+{display: flex;
+align-items: center;
+flex-wrap: wrap;}
+
+.lista-viajes li
+{list-style: none;
+margin: 30px;
+padding: 5px;}
+
+.lista-viajes li a
+{text-decoration: none;
+color: black;
+font-family: 'Amiri Quran', serif;
+font-size: 30px;}
+
+.lista-viajes li a:hover
+{font-size: 32px;
+font-weight: bold;}
+
+.article-chalten
+{display: flex;
+flex-direction: column;
+justify-content: center;
+margin: 30px;
+padding: 30px;}
+
+.article-chalten1
+{display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+border:#5f0609 solid 2px}
+
+.article-chalten2
+{display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+border:#5f0609 solid 2px}
+
+.article-boliviaperu
+{display: flex;
+flex-direction: row;
+justify-content: center;
+margin: 10px;
+padding: 5px;
+border:#5f0609 solid 2px}
+
+.section-tucuman
+{border:#5f0609 solid 2px}
+
+.index-preguntas
+{border: 1px solid black }
+
+.img-tucuman
+{display: flex;
+flex-direction: row;
+justify-content: center;}
+
+.img-tucuman2
+{display: flex;
+flex-direction: row;
+justify-content: center;}
+
+.img-tucuman2 img:hover
+{width:930px;
+height:440px}
+
+.img-tucuman img:hover
+{width: 1250px;
+height: 350px;}
+
+
+.box-section
+{display: flex;
+flex-wrap: nowrap;
+flex-direction: row;
+margin: 10px;
+padding: 5px;}
+
+img:hover
+{width: 400px;
+height: 300px;}
+/*fin section*/
+
+/*contacto*/
+
+
+/*inicio footer*/
+footer
+{background-image: linear-gradient(to left, #532728, #572122, #5a1a1b, #5d1113, #5f0609);
+display:flex;
+justify-content: center;
+flex-direction: row;
+border: #d4be99 solid 2px;}
+
+.img-footer:hover
+{width: 60px;
+height: 60px;}
+/*fin footer*/
+

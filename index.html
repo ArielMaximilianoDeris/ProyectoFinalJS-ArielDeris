@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head> <!--inicio del head-->
+        <title>Antropologia Viajera</title>
+        <link rel="shortcut icon" href="./img/logo.jpg">
+        <link rel="stylesheet" href="./estilo/estilo.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Amiri+Quran&family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+        <script src="./bootstrap/js/jquery.slim.min.js"></script>
+        <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="./js/sweetalert2.all.min.js"></script>
+    </head> <!--fin del head-->
+
+    <body> <!--inicio del body-->
+
+       <!--inicio del header-->
+        <header>
+       
+        <h1>Antropología Viajera</h1>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Pagina Principal</a></li>
+                    <li> <a href="./pages/viajes.html">Viajes y reseñas</a></li>
+                    <li><a href="./pages/investigacion.html">Trabajos de investigacion</a></li>
+                    <li><a href="./pages/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+
+        </header> <!--fin del header-->
+        
+
+
+        
+        <div class="flex-aside-article">
+
+        <div class="flex-box-aside">
+        <aside>
+        <img src="./img/antropologia.jpg" width="350px" height="250px">
+        <img src="./img/antropologia2.jpeg" width="350px" height="250px">
+        </aside>
+        </div>
+       
+        <div class="flex-box-section">
+        <section>
+            <article>
+                <h1>Sobre nosotros</h1>
+                <p>El equipo de Antropologia de la viajera surge en el año 2017, 
+                    y tiene como proposito de articular la tematica de viajes, turismo, 
+                    diversidad cultural abordado desde un punto de vista antropologico. 
+                    Tocando multiples factores, desde ver las diferentes gastronómicas regionales, 
+                    arquitectónicas, problematicas sociales, etc.</p> <br>
+                
+                <h2>Perspectivas teórico-metodológicas:</h2>
+                <p>Centralmente el Equipo propone una perspectiva, es decir, un conjunto de maneras de ser 
+                y de hacer para la investigación, pausible de ser empleada por cualquier investigador. 
+                Es un lugar desde el cual: mirar, decir, analizar, estudiar, teorizar. Por eso, puede ser 
+                empleada para el estudio de distintos grupos sociales, por ejemplo del ámbito religioso, 
+                político, educativo, cultural, artístico, terapéutico, entre otros.</p> <br>
+
+                <h2>Objetivos:</h2>
+                <p>El objetivo que nos proponemos es abordar el tema de los viajes, entendiendolos en un 
+                    aspecto integral. Viajar es trasladarse de un sitio a otro, y lo vamos a ver entendido 
+                    tanto como un periodo de lo que normalmente se llaman " vacaciones", como así también 
+                    en el sentido de una vida mochilera, en donde trabajamos mucho con la comunidad mochilera.
+                    Los mochileros son una gran fuente de investigacion para entender el fenomeno de los viajes. 
+                    Tambien se abordan aspectos sociohistoricos, como los pueblos cazadores recolectores 
+                    nomades, los primeros viajeros, el proceso de colonización, etc.</p>
+            </article>
+
+            <article class="index-preguntas">
+                <h1>¿Cuánto sabes de argentina?</h1>
+                <p>Juguemos un juego! responde este breve cuestionario, 
+                    para ver cuanto sabés sobre nuestro país. Al final obtendras tu puntaje, 
+                    y podras compararlos con los de los demás jugadores. </p> <br>
+
+                
+                <p><h2>¿Con cuantas provincias cuenta el país?</h2>
+                    <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+                        <button type="button" id="btn-correcto" class="btn btn-secondary">23 provincias</button>
+                        <button type="button" id="btn-incorrecto"class="btn btn-secondary">24 provincias</button>
+                      </div>
+                    <h2>¿A qué provincia la llaman "La Linda"?</h2>
+                      <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+                        <button type="button" id="btn-incorrecto2" class="btn btn-secondary">Jujuy</button>
+                        <button type="button" id="btn-correcto2"class="btn btn-secondary">Salta</button>
+                      </div>
+                    <h2>¿En que provincia se encuenta la reserva "Esteros del Ibera?</h2>
+                    <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+                        <button type="button" id="btn-correcto3" class="btn btn-secondary">Corrientes</button>
+                        <button type="button" id="btn-incorrecto3" class="btn btn-secondary">Misiones</button>
+                      </div><br><br>
+                      <button id="finalizarPreguntas" type="button" class="btn btn-secondary">finalizar</button> <br>
+                </p>
+            </article> <hr>
+
+         
+            <article>
+                <h3>Dejanos tu comentario</h3>
+                <input id= "comentarios" class="form-control form-control-lg" type="text" placeholder="Dejanos tu comentario..."> <br>
+                <input id= "valoracionPagina" class="form-control form-control-lg" type="number" placeholder="Dejanos un puntaje del 1 al 10">
+                <button id="dejarComentario" type="button" class="btn btn-secondary">Enviar</button> <br>
+                <p id="cajaDeComentarios"></p>
+            </article>
+
+        
+        <footer>
+            <a><img class="img-footer" src="./img/email.png" width="50px" height="50px" alt="email"></a>
+            <a><img class="img-footer" src="./img/instagram.png" width="50px" height="50px" alt="instagram"></a>
+            <a><img class="img-footer" src="./img/facebook.png" width="50px" height="50px" alt="facebook"></a>
+            <a><img class="img-footer" src="./img/twitter.png" width="50px" height="50px"></a>
+        </footer>
+
+
+
+
+    <script src="./js/main.js"></script>
+    </body> <!--fin del body-->
+</html>
